@@ -12,5 +12,32 @@
     ],
     "hash": "abc123",
     "prev_hash": "000000"
+  },
+  {
+    "index": 2,
+    "timestamp": "2023-01-01T00:05:00Z",
+    "transactions": [
+      {
+        "id": "tx2",
+        "from": "Bob",
+        "to": "Charlie",
+        "amount": 30
+      },
+      {
+        "id": "tx3",
+        "from": "Charlie",
+        "to": "Alice",
+        "amount": 10
+      }
+    ],
+    "hash": "def456",
+    "prev_hash": "abc123"
+  },
+  {
+    "index": 3,
+    "timestamp": "2023-01-01T00:10:00Z",
+    "transactions": [],
+    "hash": "ghi789",
+    "prev_hash": "def456"
   }
 ]
